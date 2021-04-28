@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: 'future pt',
+  font-family: 'Futura PT',
     sans-serif;
 
   background: #F3F3F3;
@@ -53,7 +53,7 @@ body {
 .header-ul {
   display: flex;
   align-items: center;
-  margin-left: 50px;
+  margin-left: 106px;
 }
 
 .right-ul {
@@ -166,6 +166,10 @@ body {
   display: flex;
   align-items: center;
   color: #333333;
+}
+
+.right-link:hover {
+  color: #FFBD54;
 }
 
 .botim {
@@ -406,33 +410,7 @@ body {
 
 }
 
-.line::before {
-  content: " ";
-  position: absolute;
-  display: inline-block;
-  width: 70px;
-  height: 64px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url(../img/ong\ qush.png);
-  top: 20px;
-  left: 138px;
-}
 
-.line::after {
-  content: " ";
-  position: absolute;
-  display: inline-block;
-  width: 70px;
-  height: 64px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url(../img/chap\ qush.png);
-  bottom: 84px;
-  right: 208px;
-}
 
 .line-p {
   margin-top: 35px;
@@ -489,7 +467,7 @@ body {
 }
 
 .imgleft {
-  margin-top: 50px;
+  margin-top: 98px;
   margin-right: 30px;
   background-color: transparent;
 
@@ -806,7 +784,7 @@ body {
   width: 613px;
   height: 572px;
   right: -65px;
-  top: -129px;
+  top: -216px;
 }
 
 .baner-h2 {
@@ -819,6 +797,15 @@ body {
 .form {
   padding-top: 32px;
   padding-bottom: 82px;
+
+}
+
+.ikki {
+  display: flex;
+}
+
+.form .btn {
+  margin: 0;
 }
 
 .form input::placeholder {
@@ -833,9 +820,10 @@ body {
 .form .input {
   background: #FFFFFF;
   width: 335px;
-  height: 50px;
+  height: 54px;
   border: none;
-  outline: none
+  outline: none;
+  margin-right: 21px;
 }
 
 .form .input:focus {
@@ -886,6 +874,7 @@ body {
 
 .botom-card {
   width: 303px;
+  height: 481px;
   background: #FEFEFE;
   border: 1px solid #E4E4E2;
   box-sizing: border-box;
@@ -1195,6 +1184,17 @@ body {
   outline: none;
 }
 
+.form .email:invalid {
+  border: 1px solid red;
+  color: red;
+}
+
+.form .email:valid {
+  border: 1px solid #FFBD54;
+
+
+}
+
 .form .sms {
   width: 375px;
   height: 157px;
@@ -1220,6 +1220,11 @@ body {
   border-radius: 1px;
   padding: 15px 50px;
   margin-top: 30px;
+}
+
+.input-btn:hover {
+  background: #110e0e;
+  color: #FFBD54;
 }
 
 /* footer */
@@ -1354,4 +1359,14 @@ body {
 
 .footer-img:active {
   opacity: .6;
+}
+
+.finish {
+  text-align: right;
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 23px;
+  text-align: right;
+
+  color: #5C5C5C;
 }
